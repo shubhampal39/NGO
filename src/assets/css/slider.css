@@ -1,0 +1,176 @@
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 450px;
+}
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #191919;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  background-color: #cc0910;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 46px;  
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+	font-family: 'titillium_webbold';
+	text-transform: uppercase;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+   
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5,
+.fade-carousel .slides .slide-6,
+.fade-carousel .slides .slide-7,
+.fade-carousel .slides .slide-8,
+.fade-carousel .slides .slide-9 {
+  height: 517px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+ background-image: url(../images/banner_silder_1_web.jpg); 
+}
+.fade-carousel .slides .slide-2 {
+ background-image: url(../images/banner_silder_2_web.jpg);
+}
+.fade-carousel .slides .slide-3 {
+ background-image: url(../images/banner_silder_3_web.jpg);
+}
+.fade-carousel .slides .slide-4 {
+ background-image: url(../images/banner_silder_4_web.jpg);
+}
+.fade-carousel .slides .slide-5 {
+  background-image: url(../images/banner1.png);
+}
+.fade-carousel .slides .slide-6 {
+  background-image: url(../images/awards-banner-1.jpg);
+}
+.fade-carousel .slides .slide-7 {
+  background-image: url(../images/awards-banner-2.jpg);
+}
+.fade-carousel .slides .slide-8 {
+  background-image: url(../images/awards-banner-3.jpg);
+}
+.fade-carousel .slides .slide-9 {
+  background-image: url(../images/awards-banner-4.jpg);
+}
+
+
+#anandwan-carousel p{font-family: 'titillium_webregular';     
+	font-size: 19px;
+    line-height: 36px;
+	color: #fff;
+    font-weight: bolder;}
+#anandwan-carousel a:hover{ color: white; text-decoration: none;}
+.arr-left{
+    position: absolute;
+    top: 43%;
+}
+.arr-right{
+    position: absolute;
+    top: 43%;
+	right: 30%;
+}
+.arr-left{
+    position: absolute;
+    top: 43%;
+	left: 30%;
+}
+.read-more{
+	color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+.hr-line {
+    border-bottom: 3px solid #cf8e02;
+    height: 8px;
+    width: 9%;
+    display: block;
+    margin: 0 auto;
+}
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}

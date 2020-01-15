@@ -1,0 +1,43 @@
+  <!-- Sidebar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+    <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+        <img src="assets/images/close.png" class="btn-close">
+    </button>
+    <ul class="nav sidebar-nav">
+        <li class="active"> <a [routerLink]="['/home']">Home</a></li>
+        <li> <a [routerLink]="['/journey']">Baba Amte - The Journey</a></li>
+        <li> <a [routerLink]="['/ourwork']">Our Work</a></li>
+        <!-- <li class="dropdown">
+            <a href="about-us.html" class="dropdown-toggle" data-toggle="dropdown"> Our Work <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="healthcare.html">Healthcare</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="livelihood.html">Livelihood</a></li>
+                    <li><a href="agriculture.html">Agriculture</a></li>
+                    <li><a href="rehabilitation.html">Rehabilitation</a></li>
+                    <li><a href="environment.html">Environment</a></li>
+                </ul>
+        </li> -->  
+        <li><a [routerLink]="['/gallery']">Gallery</a></li>
+        <li><a [routerLink]="['/visitus']" target="_blank">Visit us</a></li>
+        <li><a [routerLink]="['/donate']">Donate</a></li>
+        <li><a [routerLink]="['/contactus']">Contact Us</a></li>
+    </ul>
+</nav>
+<!-- /#sidebar-wrapper -->
+<div class="cust-well">
+    <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+        <span class="hamb-top"></span>
+        <span class="hamb-middle"></span>
+        <span class="hamb-bottom"></span>
+    </button>
+    <div class="container cust-container">
+        <a [routerLink]="['/home']"><img src="assets/images/logo.png" class="float-left margin-left-50 img-center logo-padding logo-shrink"></a>
+        <!-- <a href="http://anandwan.squarespace.com/contribute/">
+            <img src="assets/images/donate2.png" class="float-right margin-top-20 img-center">
+        </a> -->
+        <a [routerLink]="['/donate']"><button class="float-right margin-top-20 donate"><label>DONATE</label></button></a>
+    </div>
+</div>
+<!-- /Navigation -->
+<div class="clearfix"></div>

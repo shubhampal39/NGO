@@ -1,0 +1,1410 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.cust-well{
+	z-index:999!important;
+}
+
+.healthcare_bg{
+	background:url(../images/banner_1.jpg) no-repeat center center fixed; background-size:cover;
+	height:425px;
+}
+
+.healthcare h2{
+	font-family: 'Titillium Web', sans-serif !important;
+	float:none;
+	color:#413f3f;
+	font-size:36px;
+	font-weight:900; text-transform:uppercase;
+	margin-top: 0;
+}
+
+.cust-border-11{
+	background:#7af3b3!important;
+}
+
+.healthcare img.img-responsive{
+	margin-top:16px;
+}
+
+.healthcare p{
+	margin:12px 0px 0px 0px;
+	font-size:16px;
+	font-weight:600;
+}
+
+.healthcare .hidden-content-show p{
+	margin:0px 0px 30px 0px;
+}
+
+.healthcare .btn{
+	width:117px;
+	height:47px;
+	background:#fff;
+	border:2px solid #7af3b3;
+	margin:24px 0px 24px 0px;
+	font-weight:600;
+	font-family: 'titillium_webregular';
+	color: black;
+	padding: 5px 15px 7px 15px;
+    border-radius: 5px;
+}
+
+/*-- carousel--*/
+
+.carousel-caption.slide-1{
+		/*opacity:0.7;*/
+		width: 100%;
+	background: rgba(10, 10, 10, 0.68);
+	padding:7px 80px;  bottom:0px;  margin-top:0px;
+	left:0px;
+}
+
+.slide-1 img.img-responsive{
+	margin:13px 0px 17px 0px;
+	display:inline-block!important;
+}
+
+.slide-1 h3{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:28px;
+	color:#fff;
+	font-weight:900;
+	text-shadow:none; text-transform:uppercase;
+}
+
+.slide-1 h3 span{
+	color:#7af3b3;
+	text-shadow:none;
+}
+
+.slide-1 p{
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+}
+.carousel-inner>.item.active{
+	height: 400px;
+}
+
+/*-- TAB SECTION --*/
+#tab-anandvan .container{
+	padding:30px 0px 30px 0px;
+}
+
+#tab-anandvan ul.nav.nav-tabs li{
+	border-right:1px solid #b8b6b6;
+}
+
+#tab-anandvan ul.nav.nav-tabs li:last-child{
+	border-right:none;
+}
+
+#tab-anandvan ul.nav.nav-tabs li a{
+	color:#000;
+	font-weight:bold;
+	font-size:16px;
+}
+
+#tab-anandvan ul.nav.nav-tabs li a:hover{
+	background:none;
+	border-bottom:4px solid #69cd98;
+}
+
+#tab-anandvan .container .tab-content .tab-pane p{
+	padding:25px 0px 10px 0px;
+	font-size:16px;
+}
+
+/*-- CAROUSEL 2 --*/
+
+.carousel-caption.slide-2{
+	/*opacity:0.7;*/
+		width: 100%;
+	background: rgba(10, 10, 10, 0.68);
+	padding:7px 80px;  bottom:0px;  margin-top:0px;
+	left:0px;
+}
+
+.slide-2 img.img-responsive{
+	margin:13px 0px 17px 0px;
+	display:inline-block!important;
+}
+
+.slide-2 h3{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:28px;
+	color:#fff;
+	font-weight:900;
+	text-shadow:none; text-transform:uppercase;
+}
+
+.slide-2 h3 span{
+	color:#7af3b3;
+	text-shadow:none;
+}
+
+.slide-2 p{
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+}
+.carousel-caption h3 {
+    margin-top: 6px !important;
+    margin-bottom: 3px !important;
+}
+
+/*-- TAB SECTION --*/
+
+#tab-hemalkasa .container{
+	padding:30px 0px 20px 0px;
+}
+
+#tab-hemalkasa ul.nav.nav-tabs li{
+	border-right:1px solid #b8b6b6;
+	font-size:16px;
+}
+
+#tab-hemalkasa ul.nav.nav-tabs li:last-child{
+	border-right:none;
+}
+
+#tab-hemalkasa ul.nav.nav-tabs li a{
+	color:#000;
+	font-weight:bold;
+}
+
+#tab-hemalkasa ul.nav.nav-tabs li a:hover{
+	background:none;
+	border-bottom:4px solid #69cd98;
+}
+
+#tab-hemalkasa .container .tab-content .tab-pane p{
+	padding:25px 0px 10px 0px;
+	font-size:16px;
+}
+
+/*-- INITIATIVE --*/
+
+#initiative{
+	background:#e7e7e7;
+}
+
+#initiative .container .heading{
+	font-size:36px;
+	font-weight:bold; text-transform:uppercase;
+}
+
+#initiative .container{
+	padding:50px 0px 50px 0px;
+}
+
+#initiative .initiative-content{
+	margin:36px 0px 0px 0px;
+}
+
+.hidden-content-show{
+	display: none;
+}
+
+.hide-readmore{
+	cursor: pointer;
+}
+
+.awareness{
+	/*border: 10px solid #fdfdfd;*/
+    background: #fff;
+    box-shadow: 5px 5px 6px #bfbfbf;
+	border-radius: 0px;
+}
+
+.awareness img.img-responsive{
+	border-radius:0px;
+}
+
+.inner-content{
+	padding:15px;
+}
+
+.inner-content h4{
+	color:#6ad49c;
+	padding:0px 0px 10px 0px;
+	border-bottom:1px solid #bebebe;
+	font-weight:600;
+}
+
+.awareness div button.btn{
+	background:none;
+	border: 1px solid #00f3b1;
+	border-radius:0px;
+	padding:10px;
+	margin-bottom:20px;
+	font-weight:600;
+	margin-top: 15px;
+}
+
+.awareness div button.btn:hover{
+	color:#000;
+	background:#7af3b3;
+	border:1px solid #7af3b3;
+}
+
+.initiative_heanding{
+	color:#393939;
+	font-size:20px;
+	font-weight:500;
+	margin:0px 0px 20px 0px;
+}
+
+.medical_icon{
+	margin-top:-60px;
+	position:relative;
+}
+
+.hidden-content-show p{
+	padding:15px 0px 0px 0px!important;
+}
+
+/*--- MODAL ---*/
+
+.awareness_modal{
+	border:1px solid #b1b0b0;
+	background:#fff;
+	border-radius:10px;
+	box-shadow:5px 5px 6px #bfbfbf;
+}
+
+.awareness_modal img.img-responsive{
+	border-radius:10px 10px 0px 0px;
+}
+
+.inner-content_modal{
+	padding:15px;
+}
+
+.inner-content_modal h4{
+	color:#479c6f;
+	padding:0px 0px 10px 0px;
+	border-bottom:1px solid #bebebe;
+	font-weight:600;
+	text-align:center;
+	    width: 67%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+	}
+
+.inner-content_modal p{
+	text-align:center;
+	padding-top: 15px;
+}
+.modal-content{
+	border-radius: 0px !important;
+}
+.modal-body{
+	padding:0px!important;
+}
+
+ .modal-header{
+ 	padding:0px 10px 0px 0px;
+ }
+
+span.glyphicon.glyphicon-chevron-left.btn-default.btn-prev.model_pre {
+	margin-left: -10px;
+	width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+	left: 50%;
+	position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block; cursor:pointer;
+}
+
+span.glyphicon.glyphicon-chevron-right.btn-default.btn-next.model_next{
+	margin-right: -10px;
+	width: 30px;
+height: 30px;
+margin-top: -10px;
+font-size: 30px;
+right: 50%;
+position: absolute;
+top: 50%;
+z-index: 5;
+display: inline-block; cursor:pointer;
+}
+
+span.glyphicon.glyphicon-chevron-left.btn-default.btn-prev.model_pre{
+	left:-10%;
+	background:url(../images/previous_icon.png) no-repeat center center;
+	color:#fff;
+}
+
+span.glyphicon.glyphicon-chevron-right.btn-default.btn-next.model_next{
+	right:-10%;
+	background:url(../images/next_icon.png) no-repeat center center;
+	color:#fff;
+}
+
+.modal_close{
+	width:600px;
+	margin:0px auto;
+}
+
+.modal_close button.close{
+	display:block;
+	color:#fff;
+	font-size:30px;
+	opacity:1;
+}
+
+.modal{
+	margin:40px 0px 0px 0px;
+}
+/*-- CAROUSEL ICON --*/
+
+span.glyphicon.glyphicon-chevron-left.carousel_icon_left{
+	background:url(../images/previous_icon.png) no-repeat center center;
+}
+
+span.glyphicon.glyphicon-chevron-right.carousel_icon_right{
+	background:url(../images/next_icon.png) no-repeat center center;
+}
+
+.glyphicon-chevron-left:before, .glyphicon-chevron-right:before{
+	display:none;
+}
+
+/* by sandip */
+.inner-content h4{
+	font-size: 16px;
+	text-align: center;
+    line-height: 21px;
+    margin: 3px 0 0 0;
+}
+.inner-content p{
+	font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.awareness div button.btn{
+	padding: 5px 15px 7px 15px;
+	border-radius: 5px;
+}
+.margin-right-3per{
+	margin-right: 3%;
+}
+.margin-0{margin:0px !important; }
+.healthcare .btn:hover{
+	background: #7af3b3;
+}
+.cust-btn{
+	width:117px;
+	height:47px;
+	background:#fff;
+	border:2px solid #7af3b3;
+	font-weight:600;
+	font-size: 14px;
+	margin-top: 24px;
+	font-family: 'titillium_webregular';
+	color: black;
+	padding: 5px 15px 7px 15px;
+    border-radius: 5px;
+}
+.cust-btn:hover{
+	background: #7af3b3;
+}
+.slide-1 p{
+	margin: 0 0 3px;
+}
+.slide-2 p{
+	margin: 0 0 3px;
+}
+
+
+.cust-img-responsive{
+  width: 100%;
+}
+/* end */
+
+/* Education */
+.bg-edu-color{
+	background: #7aadff !important;
+}
+.text-edu-color{
+	color: #7aadff !important;
+}
+.cust-edu-btn{
+	border: 2px solid #7aadff;
+}
+.cust-edu-btn:hover {
+    background: #7aadff;
+}
+#tab-anandvan ul.nav.edu-tabs li a:hover, #tab-hemalkasa ul.nav.edu-tabs li a:hover {
+    background: none;
+    border-bottom: 4px solid #7aadff;
+}
+
+.edu-tabs>li.active>a, .edu-tabs>li.active>a:focus, .edu-tabs>li.active>a:hover
+{
+	border-bottom: 4px solid #7aadff;
+}
+/* ENVIRONMENT */
+.bg-envir-color {
+    background: #9fcc39 !important;
+}
+.text-envir-color {
+    color: #9fcc39 !important;
+}
+#tab-anandvan ul.nav.envir-tabs li a:hover, #tab-hemalkasa ul.nav.envir-tabs li a:hover {
+    background: none;
+    border-bottom: 4px solid #9fcc39;
+}
+
+.envir-tabs>li.active>a, .envir-tabs>li.active>a:focus, .envir-tabs>li.active>a:hover
+{
+	border-bottom: 4px solid #9fcc39;
+}
+/* Contact us */
+.contactUs_bg{
+    background: url(../images/contact-us-bg.jpg) no-repeat center center fixed;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 425px;
+}
+.contact-us p{
+	line-height: 27px;
+}
+.contact-us{
+	padding: 5px 0 30px 0;
+}
+.ver-line{
+	border-right: 1px solid #a29f9f;
+    height: 418px;
+    width: 1px;
+    position: absolute;
+    right: 24px;
+    top: 0;
+}
+.padding-0{
+	padding: 0px;
+}
+
+.contact-us-border {
+    height: 11px;
+    background: #a66528;
+}
+
+
+/* Volunteer */
+.volunteer_bg{
+	background: url(../images/volunteer_bg.jpg) no-repeat center center fixed;
+    background-size: 100%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: 425px;
+}
+.volunteer-border {
+    height: 11px;
+    background: #dd9907;
+}
+.volunteer-txt{
+	margin-bottom: 20px;
+}
+.testimonials{
+	background-color: #eeeeee;
+	padding: 47px 0 80px 0;
+}
+.testimonials p{
+	text-align: center;
+}
+.apply-now {
+    margin: 40px 0 40px 0px;
+}
+.testi-btn {
+    width: 117px;
+    height: 47px;
+    background: #fff;
+    border: 2px solid #ffae00;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 24px;
+    font-family: 'titillium_webregular';
+    color: #885e06;
+    padding: 5px 15px 7px 15px;
+    border-radius: 5px;
+}
+.testi-btn:hover{
+	background:  #ffae00;
+}
+.testimonials .item.active {
+    height: auto !important;
+}
+.testimonials .carousel-indicators {
+    bottom: -51px;
+}
+.testimonials .rightarrows,.leftarrows{
+	height: 30px;
+    width: 30px;
+    background: #bbb9b9;
+    padding: 8px;
+    border-radius: 17px;
+}
+ .rightarrows{
+	position: absolute;
+    top: 52%;
+    right: 0;
+}
+  .leftarrows{
+	position: absolute;
+    top: 52%;
+    left: 0;
+}
+.testimonials .carousel-indicators .active {
+    background-color: #ffae00;
+}
+.testimonials .carousel-indicators li{
+	background-color: rgb(255, 255, 255);
+}
+.leftarrows:hover{
+	background: #ffae00;
+}
+.rightarrows:hover{
+	background: #ffae00;
+}
+
+
+/* ANANDWAN */
+.anandwan_bg{
+	background: url(../images/anadwan-bg.jpg) no-repeat center center fixed;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 425px;
+}
+.y-goldbg{
+	height: 11px;
+    background: #ff9900;
+}
+.anandwan-txt{
+	background-color: #eeeeee;
+    padding: 60px 0 60px 0;
+}
+
+.anandwan-txt .carousel-inner>.item.active {
+    height: auto !important;
+}
+
+.anandwan-txt .rightarrows, .anandwan-txt .leftarrows {
+    height: 25px;
+    width: 25px;
+    background: #ff9900;
+    padding: 8px;
+    border-radius: 17px;
+}
+.anandwan-txt .rightarrows {
+	top: 46% !important;
+	right: -7px;
+}
+.anandwan-txt .leftarrows{
+	top: 46% !important;
+	left: -7px;
+}
+.m-t-60{
+	margin-top: 60px;
+}
+.anandwan-txt .carousel-inner{
+	border: 7px solid #fff;
+}
+.hemalkasa_bg{
+	background: url(../images/hemalkasa-bg.jpg) no-repeat center center fixed;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 425px;
+}
+.f-s-18{
+	font-size: 18px;
+}
+.back{
+	font-size: 20px;
+    text-align: center;
+    color: #ff9900;
+	margin-top: 18px;
+}
+.back:hover{
+	color: #ff9900;
+}
+
+.somnath-bg{
+	background: url(../images/somnath-bg.jpg) no-repeat center center fixed;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 425px;
+}
+.mulgavan_bg{
+	background: url(../images/mulgavan-bg.jpg) no-repeat center center fixed;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 425px;
+}
+/* Livelihood */
+.bg-livelihood-color {
+    background: #e42966!important;
+}
+.text-livelihood-color {
+    color: #e42966 !important;
+}
+#tab-anandvan ul.nav.livelihood-tabs li a:hover, #tab-hemalkasa ul.nav.livelihood-tabs li a:hover {
+    background: none;
+    border-bottom: 4px solid #e42966;
+}
+.livelihood-tabs>li.active>a, .livelihood-tabs>li.active>a:focus, .livelihood-tabs>li.active>a:hover{
+	border-bottom: 4px solid #e42966;
+}
+/* Agriculture */
+.bg-agriculture-color {
+    background: #c1c42d !important;
+}
+.text-agriculture-color{
+    color: #c1c42d !important;
+}
+#tab-anandvan ul.nav.agriculture-tabs li a:hover, #tab-hemalkasa ul.nav.agriculture-tabs li a:hover {
+    background: none;
+    border-bottom: 4px solid #c1c42d;
+}
+.agriculture-tabs>li.active>a, .agriculture-tabs>li.active>a:focus, .agriculture-tabs>li.active>a:hover{
+	border-bottom: 4px solid #c1c42d;
+}
+/* rehabilitation */
+.bg-rehabi-color {
+    background: #e14c27 !important;
+}
+.text-rehabi-color {
+    color: #e14c27 !important;
+}
+#tab-anandvan ul.nav.rehabi-tabs li a:hover, #tab-hemalkasa ul.nav.rehabi-tabs li a:hover {
+    background: none;
+    border-bottom: 4px solid #e14c27;
+}
+.rehabi-tabs>li.active>a, .rehabi-tabs>li.active>a:focus, .rehabi-tabs>li.active>a:hover{
+	border-bottom: 4px solid #e14c27;
+}
+/* Background images */
+.muktangan-bg{
+	background: url(../images/muktangan_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.zillaParishadSchool-bg{
+	background: url(../images/carousel_10.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.LBPAshramShala-bg{
+	background: url(../images/education-lbp-ashram-shala.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.LBPSadhanaVidyalay-bg{
+	background: url(../images/education-lbs-sandhya-vidyal.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.AnandNiketanCollege-bg{
+	background: url(../images/Aanand-Niketan_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.AgriCollege-bg{
+	background: url(../images/carousel_5.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.agripolytechnic-bg{
+	background: url(../images/Agri-Polytechnic_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.AnandBlindSchool-bg{
+	background: url(../images/Anand_Blind_School.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.Ananddeafmuteschool-bg{
+	background: url(../images/carousel_7.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.sandhiniketan-bg{
+	background: url(../images/carousel_9.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.LandT-bg{
+	background: url(../images/education11.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.scrapBank-bg{
+	background: url(../images/Scrap-Bank_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.minimarket-bg{
+	background: url(../images/market_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.sitaRatan-bg{
+	background: url(../images/carousel_1.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.shirdisaibaba-bg{
+	background: url(../images/carousel_2.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.LokBiradari-bg{
+	background: url(../images/carousel_3.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.healthCenter-bg{
+    background: url(../images/Healthcare_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-t1-bg{
+    background: url(../images/handloom_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-t2-bg{
+	background: url(../images/yet-to-come.png) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-t2-bg{
+    background: url(../images/powerloom_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-lt3-bg{
+    background: url(../images/satranji_Web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-lt4-bg{
+    background: url(../images/Bags_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-t3-bg{
+	background: url(../images/metalwork_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-lt1-bg{
+	background: url(../images/metalwork_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-wood1-bg{
+	background: url(../images/Carpentery_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-wood2-bg{
+	background: url(../images/Woodcraft_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-allied1-bg{
+	background: url(../images/printing_Web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-allied2-bg{
+	background: url(../images/shoe_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-allied3-bg{
+	background: url(../images/construction_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-allied4-bg{
+	background: url(../images/yet-to-come.png) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-handi1-bg{
+	background: url(../images/poster_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-handi2-bg{
+	background: url(../images/greeting_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-t4-bg{
+	background: url(../images/yet-to-come.png) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.liveli-t5-bg{
+	background: url(../images/yet-to-come.png) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.agriculture-t1-bg{
+    background: url(../images/Floriculture_Agri.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.agriculture-t2-bg{
+	background: url(../images/Horticulture_Agri.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.agriculture-t3-bg{
+	background: url(../images/Fodder_Agri.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.agriculture-t4-bg{
+	background: url(../images/Grains_Agri.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.agriculture-t5-bg{
+	background: url(../images/Cotton_Agri.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.agriculture-t6-bg{
+	background: url(../images/yet-to-come.png) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.agriculture-t7-bg{
+    background: url(../images/Dairy_Agri.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.agriculture-t8-bg{
+    background: url(../images/Aquaculture.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.agriculture-t9-bg{
+	background: url(../images/poultry_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.rehabi-t1-bg{
+	background: url(../images/sneh-savali_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.rehabi-t2-bg{
+	background: url(../images/Apulki_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.rehabi-t3-bg{
+	background: url(../images/uttarayan_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.rehabi-t4-bg{
+	background: url(../images/krushi_niketan_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.rehabi-t5-bg{
+	background: url(../images/sukh-sadan_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.rehabi-t6-bg{
+	background: url(../images/muktisadan_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.rehabi-t7-bg{
+	background: url(../images/mitrangan_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.rehabi-t8-bg{
+	background: url(../images/gokul_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.rehabi-t9-bg{
+	background: url(../images/yuvagram_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.rehabi-t10-bg{
+	background: url(../images/sandhi_niketan_web.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.solar-bg{
+	background: url(../images/solar.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.biogas-bg{
+	background: url(../images/bio_gas.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.miyawaki-bg{
+	background: url(../images/miyawaki.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.abhayaranya-bg{
+	background: url(../images/abhayaranya.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.green-wall-bg{
+	background: url(../images/green-wall.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.Man-made-lakes-bg{
+	background: url(../images/man-made-lake.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.Checkdams-bg{
+	background: url(../images/Check-Dams.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.aqua-treatment-bg{
+	background: url(../images/yet-to-come.png) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+
+.goonj-bg{
+	background: url(../images/goonj.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.poster-dept-bg{
+	background: url(../images/poster-dept-small.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.greeting-card-dept-bg{
+	background: url(../images/greeting-cards-small.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.animalArkHemalkasa-bg{
+	background: url(../images/Animal-Ark-Hemalkasa.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.somnathPrakalpa-bg{
+	background: url(../images/Somnath_Prakalpa.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+.agriculture-btn {
+   border: 2px solid #c1c42d !important;
+}
+.agriculture-btn:hover {
+	background: #c1c42d !important;
+}
+.somnath_bg{
+	background: url(../images/somnath-campbg.jpg) no-repeat center center fixed;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 425px;
+}
+.plastic-reuse-bg{
+	background: url(../images/plastic-reuse.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+
+
+@media (max-width: 767px){
+#tab-anandvan .container, #tab-hemalkasa .container{
+	padding:30px 15px 30px 15px;
+}
+
+.slide-1 h3, .slide-2 h3{
+	font-size:28px;
+}
+
+.slide-2 img.img-responsive, .slide-1 img.img-responsive{
+	display:none!important;
+}
+
+.initiative-content .columns{
+	margin:0px 0px 40px 0px;
+}
+
+.healthcare h2{
+	font-size:42px;
+}
+
+.carousel-caption{
+	bottom:0;
+	padding:0px;
+	left:0px;
+}
+	}
+
+@media (max-width: 350px){
+
+	.slide-1 h3, .slide-2 h3{
+	font-size:18px;
+}
+}
+.healthcare_intro p{ text-align:center}
+.hide-readless{ font-weight:normal;     font-size: 16px; cursor:pointer;}
+.modal-backdrop{ background:rgba(0,0,0,0.8)!important;}
+.modal-backdrop.in{opacity:1!important}
+.modal_close{ text-align:right; position:relative;}
+.modal_close button.close{ background:url(../images/close-p.png) no-repeat!important;
+width: 25px;
+    height: 25px;
+    z-index: 1000;
+    position: absolute;
+	right: -15px;
+    top: 18px;}
+.modal_close button.close span{ display:none!important;}
+
+@media (max-width: 1024px){
+.carousel-caption.slide-2{top:0px; margin-top:50px}
+.carousel-caption.slide-1{top:0px; margin-top:50px}
+.healthcare_bg{ height:300px}
+}
+
+@media (max-width: 768px){
+.carousel-caption.slide-2{top:0px; margin-top:5px}
+.carousel-caption.slide-1{top:0px; margin-top:5px}
+.carousel-caption.slide-2{ padding:15px}
+}
+
+@media (max-width: 420px){
+
+.carousel-caption.slide-2{ padding:5px}
+}
+
+
+.footer-text{     font-family: 'titillium_weblight';
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 600;}
+#tab-anandvan .carousel-inner{ margin-bottom:30px}
+#tab-anandvan{position:relative;}
+#tab-anandvan2{position: absolute; left: 0px; top: 372px; width: 100%;height: 75px; z-index: 1;}
+#tab-hemalkasa .carousel-inner{ margin-bottom:30px}
+#tab-hemalkasa{position:relative;}
+#tab-hemalkasa2{position: absolute; left: 0px; top: 372px; width: 100%;height: 75px; z-index: 1;}
